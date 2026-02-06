@@ -1,13 +1,14 @@
-**EXP 3 - Delhi Air Quality Analysis**
+### EXP 3 - Delhi Air Quality Analysis
 ### Name:Jeevan Vishal.G.D.
-### Date:06.02.26
-**Aim**
+### Reg No:212224240062
+
+### Aim:
 
 
 To compare air quality parameters in Delhi across different stations and analyze the relationship between pollutants (e.g., PM2.5 and NO₂) using scatter plots and correlation analysis.
 
 
-**Procedure / Algorithm**
+### Procedure / Algorithm:
 
 1)Load the dataset using pandas.
 
@@ -26,11 +27,8 @@ To compare air quality parameters in Delhi across different stations and analyze
 8)Interpret the results — identify which pollutants are correlated and which stations are most polluted.
 
 
-**Program**
+### Program:
 
-**Name : NIRANJAN S**
-
-**Reg No:212224040221**
 
 ```
 import pandas as pd
@@ -99,7 +97,7 @@ top5_days = daily_avg.sort_values(by='pm25', ascending=False).head(5)
 print("Top 5 worst-polluted days (date and PM2.5):")
 print(top5_days)
 ```
-**Output**
+### Output:
 
 <img width="821" height="580" alt="image" src="https://github.com/user-attachments/assets/ca75e1dc-8cf0-4daf-bbe6-3920c2114b53" />
 <img width="872" height="41" alt="image" src="https://github.com/user-attachments/assets/845eef97-a2f4-48d2-ad87-d50fdd305859" />
@@ -120,14 +118,13 @@ print(top5_days)
 
 
 
-
-**Interpretation**
+### Interpretation:
 
 1)PM2.5 and NO₂ show a strong positive correlation, suggesting that both pollutants increase together, likely due to vehicle and industrial emissions.
 
 2)  # write other insights
 
-**Result**
+### Result:
 
 The dataset was successfully loaded and processed to extract pollutant-wise and station-wise air quality data for Delhi.
 
